@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+      function BlackColor(){
+        document.bgColor='black'
+      }
+    </script>
+</head>
+
+<body>
+    <script>
+      //loop  
+  for(a=1;a<=6;a++){
+   document.write(a)
+  }
+  document.write("<br/>")
+  //using of break
+  for(i=1;i<5;i++){
+    if(i==4)
+    break
+
+document.write("value is:"+i)
+  }
+  document.write("<br/>")
+  //using of conctinue
+  for(x=1;x<5;x++){
+    if(x==3)
+    continue
+    {
+        document.write(x)
+    }
+  }
+  document.write("<br/>");
+  for(h=1;h<=6;h++){
+    document.write("<h"+">heading is:"+h +"<br>")
+    document.write("</h"+h+">")
+  } 
+  document.write("<br/>")
+  //while loop
+  var n=12;
+  while(n>0){
+    document.write("the number is" +n +"<br>")
+    n-=1
+  }
+    </script>
+    <button onclick="BlackColor()">dark mod</button>
+</body>
+</html> 
